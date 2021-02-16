@@ -190,7 +190,8 @@ namespace todolist
 
             if (dr == DialogResult.Yes)
             {
-                Environment.Exit(0);
+                // Environment.Exit(0);
+                Application.Exit();
 
             }
             else
